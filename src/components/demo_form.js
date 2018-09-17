@@ -4,8 +4,10 @@ class DemoForm extends Component{
     constructor(props){
         super(props);
 
+        console.log('props:', props)
+
         this.state = {
-            email: '',
+            email: props.email,
             password: '',
             name: ''
         }
@@ -17,11 +19,15 @@ class DemoForm extends Component{
         event.preventDefault();
         console.log('form Submitted:', this.state);
 
+        this.setState({
+            email: '',
+            password: '',
+            name: ''
+        })
+
     }
 
     handleChange(event){
-        console.log('input value:', event.target.value);
-        console.log('input name:', event.target.name);
 
 
         this.setState({

@@ -3,10 +3,15 @@ import '../assets/css/app.css';
 import logo from '../assets/images/logo.svg';
 import DemoForm from './demo_form'
 
+
+const user = {
+    email: 'someemail@text.com'
+}
+
 const App = () => (
     <div>
         <div className="app">
-            <DemoForm/>
+            <DemoForm email={user.email}/>
         </div>
     </div>
 );
