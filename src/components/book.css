@@ -1,0 +1,15 @@
+.book{
+    font-weight: bold;
+    color: darkviolet;
+    font-size: 2em;
+}
+
+.bookstuff{
+    font-style: italic;
+    color: rgb(221, 19, 137);
+    font-size: 1em;
+}
+
+.dresden{
+    background-image: url(./images/dresden.jpeg);
+}

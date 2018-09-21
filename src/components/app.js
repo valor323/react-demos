@@ -1,12 +1,16 @@
 import React from 'react';
 import '../assets/css/app.css';
 import logo from '../assets/images/logo.svg';
+import Music from './music';
+import Books from './books';
+import Movies from './movie';
 
 const App = () => (
     <div>
         <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
+            <Music/>
+            <Books/>
+            <Movies/>
         </div>
     </div>
 );

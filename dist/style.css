@@ -1,0 +1,15 @@
+.music{
+    font-weight: bold;
+    color: aqua;
+    font-size: 3em;
+}
+
+.musicstuff{
+    font-style: italic;
+    color: chartreuse;
+    font-size: 1.5em;
+}
+
+.music-container{
+    background-image: url(./journey.jpeg);
+}
